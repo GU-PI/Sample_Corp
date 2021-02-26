@@ -510,14 +510,14 @@ select:focus {
 @media screen and (min-width: 768px) {
   .about {
     padding-top: 50%;
-    background: url(/img/mv.png) center center/cover;
+    background: url(../img/mv.png) center center/cover;
   }
 }
 
 @media screen and (max-width: 767px) {
   .about {
     padding: 200px 0 200px;
-    background: url(/img/mv.png) center center/cover;
+    background: url(../img/mv.png) center center/cover;
   }
 }
 
@@ -1138,7 +1138,7 @@ select:focus {
 # Q&A
 =======================================*/
 .faqs {
-  background: url(/img/qa-bg.png) top center/cover;
+  background: url(../img/qa-bg.png) top center/cover;
   position: relative;
   background-attachment: fixed;
 }
@@ -1200,7 +1200,7 @@ select:focus {
 .accordion_icon {
   width: 12px;
   height: 12px;
-  background: transparent url(/img/minus.png) no-repeat center center/contain;
+  background: transparent url(../img/minus.png) no-repeat center center/contain;
   position: absolute;
   right: 14px;
   top: 50%;
@@ -1209,7 +1209,7 @@ select:focus {
 }
 
 .accordion_icon.is-open {
-  background-image: url(/img/plus.png);
+  background-image: url(../img/plus.png);
 }
 
 .accordion_body {
@@ -1351,7 +1351,7 @@ select:focus {
 # contact
 =======================================*/
 .contact {
-  background: url(/img/contact-bg.png) top center/cover;
+  background: url(../img/contact-bg.png) top center/cover;
   position: relative;
 }
 
@@ -1374,7 +1374,7 @@ select:focus {
 }
 
 .section-titele-body {
-  background: transparent url("/img/contact1.png") top center/cover;
+  background: transparent url(../img/contact1.png) top center/cover;
   color: #fff;
 }
 
