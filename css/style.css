@@ -1102,6 +1102,17 @@ select:focus {
     -webkit-box-flex: 0;
         -ms-flex: 0 1 60%;
             flex: 0 1 60%;
+    padding: 60px 20px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .comments-body {
+    position: relative;
+    top: -50px;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 60%;
+            flex: 0 1 60%;
     padding: 120px 60px;
   }
 }
